@@ -1,0 +1,745 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: Data_Confjg_Float
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_PlayerGroup_Multiplier
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    intVariables:
+    - useVariable: 1
+      name: Data_level
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
+      name: Data_coin
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_tili
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_chuizi
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_star
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_xitieshi
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_chehui
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_fengshan
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_bingdong
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_shandian
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_shizhong
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_crown
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_GetModelInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_InGame
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_box1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_box2
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_GetID
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_hdIcon
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_HDid
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_ease
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_signNum
+      tooltip: "\u7B7E\u5230\u6B21\u6570"
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_Confjg_Int
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_Iconid
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_IconKuang
+      tooltip: "\u6293\u5927\u9E45\u6311\u6218\u80DC\u5229\u603B\u6B21\u6570"
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Config_PicklightInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: box3
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_ADS
+      tooltip: "\u662F\u5426\u514D\u5E7F\u544A"
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: WinMultiply
+      tooltip: "\u901A\u5173\u5956\u52B1\u7CFB\u6570\uFF0C\u9ED8\u8BA4\u662F1\uFF0Cbuff\u751F\u6548\u65F6\u662F2"
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
+      name: Data_BGName
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_zdeIZInt
+      tooltip: "\u6293\u5927\u9E45\u603B\u6311\u6218\u6B21\u6570"
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_zdeIZKLL
+      tooltip: "\u6293\u5927\u9E45\u6D88\u8017\u603B\u5361\u8DEF\u91CC"
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: Buff_live
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Buff_light
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Buff_double
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Buff_clock
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_Bool_shizhong
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Data_Bool_shandian
+      tooltip: "\u5173\u5361\u91CC\u662F\u5426\u521B\u5EFA"
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Musicbool
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Soundbool
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Snakbool
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: VxBool
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: ZD_Bool
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: WebGlBool
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: Data_UID
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_name
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_BuildData
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_Lasttime
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Language
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_signTime
+      tooltip: "\u4E0A\u6B21\u7B7E\u5230\u65E5\u671F"
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_Confjg_String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_liveStart
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_liveEnd
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_lightStart
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_lightEnd
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_clockStart
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_clockEnd
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_doubleStart
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: buff_doubleEnd
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_dataJson
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Vx_Json
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_LoopArray
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0/0/0/0/0/0/0/0/0/0
+    - useVariable: 1
+      name: DialogName
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_MissnTimeTset
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_myOpenId
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: TipString
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: "\u4E0D\u6EE1\u8DB3\u6761\u4EF6"
+    - useVariable: 1
+      name: SoundName
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_CatArray
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1/1/0/0/0/0
+    - useVariable: 1
+      name: Data_CatDiTanArray
+      tooltip: 0
+      showInInspector: 0
+      networkSync: 0
+      value: 1/0/0/0/0
+    - useVariable: 1
+      name: Data_CatHouseArray
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1/0/0/0/0
+    - useVariable: 1
+      name: Data_CatMaoPenArray
+      tooltip: 0
+      showInInspector: 0
+      networkSync: 0
+      value: 1/0/0/0/0
+    - useVariable: 1
+      name: Data_CatWanJuArray
+      tooltip: 0
+      showInInspector: 0
+      networkSync: 0
+      value: 1/0/0/0/0
+    - useVariable: 1
+      name: Data_HuaZhi
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: "\u4E00\u822C"
+    - useVariable: 1
+      name: Data_Url
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Data_Saveid
+      tooltip: "\u7528\u4E8EUOS\u5355\u6570\u636E\u5B58\u50A8\u6587\u4EF6\u7684\u7D22\u5F15id"
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    vector2Variables: []
+    vector3Variables:
+    - useVariable: 1
+      name: ToPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: LiveIconPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: BtnPlayPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: Manager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Addressable
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Common_obj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: LoadingPrefab
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Data
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Canvas_Dialog
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Buff
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: myConfig
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Sound
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Lobby
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Paren
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: CatMao
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables:
+    - useVariable: 1
+      name: Camera
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Camera
+      value: {fileID: 0}
+    - useVariable: 1
+      name: 
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: MySqlCompoent
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: MysqlComm
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Tmp_Font
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: TMPro.TMP_FontAsset
+      value: {fileID: 11400000, guid: 9ccce46e487fcf547b0af18dc7b2a2f5, type: 2}
+    - useVariable: 1
+      name: TipFsm
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerFSM
+      value: {fileID: 0}
+    - useVariable: 1
+      name: DataHashString
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerHashTableProxy
+      value: {fileID: 0}
+    - useVariable: 1
+      name: MyConfig
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: myConfig
+      value: {fileID: 0}
+    - useVariable: 1
+      name: BuffTimeDjs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: BuffTimeDjs
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GetJsonData
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: GetJsonData
+      value: {fileID: 0}
+    - useVariable: 1
+      name: LoadResourcePrefab
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: LoadResourcePrefab
+      value: {fileID: 0}
+    - useVariable: 1
+      name: MySqlFsm
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerFSM
+      value: {fileID: 0}
+    - useVariable: 1
+      name: FsmEvent
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerFSM
+      value: {fileID: 0}
+    - useVariable: 1
+      name: FsmShop
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerFSM
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Template_Cube
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: FsmTemplate
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Fsm_Sdk
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerFSM
+      value: {fileID: 0}
+    - useVariable: 1
+      name: SoundFsm
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: PlayMakerFSM
+      value: {fileID: 0}
+    materialVariables: []
+    textureVariables:
+    - useVariable: 1
+      name: Data_touxiang
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 0}
+    arrayVariables:
+    - useVariable: 1
+      name: Data_Confjg_ArrayInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 1
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: 7day_Array
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: System.String
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - ShanDian
+  - ClickButton
+  - Button
+  - In
+  - Button1
+  - DailyGiftOnClick
+  - DailyGiftUIRest
+  - Dialog
+  - Rest
+  - StoryPick
+  - Out
+  - InGame
+  - Win
+  - Lost
+  - CatCmaear1
+  - CatCmaear2
+  - CatCmaear3
+  - ZDEJinDuGoOn
+  - ZDEInGame
+  - "\u4FA7\u8FB9\u5237\u65B0"
