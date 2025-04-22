@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9698f82633d22480cab599ec9a415dc7, type: 3}
+  m_Name: UosSettings
+  m_EditorClassIdentifier: 
+  uosAppId: 467bef3d-c882-473c-9efc-4b4c2921d78f
+  uosAppSecret: 1287317c419a4cdca8bb101ddcc94efe
+  projectGuid: f7088b5a-237b-4dd5-ae83-bfa300e0822c
+  backend: BlueCloud
+  oversea: 0
