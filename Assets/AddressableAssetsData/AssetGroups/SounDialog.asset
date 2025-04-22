@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SounDialog
+  m_EditorClassIdentifier: 
+  m_GroupName: SounDialog
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d9f246a1d3a9cb041a5dfac61fcf0263
+  m_SerializeEntries:
+  - m_GUID: d217e39ceb70abf468a0b2fd83d7a303
+    m_Address: user_Win
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c09adb49fdfc501429a7f1499ef4240a
+    m_Address: Spin3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ce0334daf3a3da4190553df621ec679
+    m_Address: MissinChanged
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3eed62721513444c87e1411b04abbd6
+    m_Address: lost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf3a672d5aa65df45b0808173623390d
+    m_Address: 0_Box2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9b1ddd86661c9744bbc273221f2525a
+    m_Address: 0_Box1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44ffb158712248e499250ad129162932
+    m_Address: MissGet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c1e3b35cab120a844adbd8a84b1a5528, type: 2}
+    - {fileID: 11400000, guid: 88ca38097d94af24b9734a3770367df1, type: 2}

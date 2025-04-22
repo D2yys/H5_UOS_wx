@@ -1,0 +1,544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 197f7b0cf75adbc438481dd7c41b13ff
+  m_SerializeEntries:
+  - m_GUID: 802e08a92f71a1a43b3905bd62184914
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/airplane
+      #6430.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dddf9f20e06fe204cbdb396c20ee8a9d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/apple.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c84615d16c7b437408597f831e2b330f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/start
+      3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07f3b5bbc72ed6f43b6dd06507cab172
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/Glow
+      2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cca3072f25d3aba4280d3a1ce930bb16
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/GlowAdd.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9a36a30992e316489edb38d50d65316
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/d2_particle_7.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 196a4c31113865b40a6c7c565d9df61f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/FangSheGuang_06.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e27eac78cbc2b054c8cb9b7c0f44f1fe
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/img_slot1163_tex18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 764b741c2222b9041bbb2a26c60ff3d2
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/img_slot1163_tex01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 553163e51197c5d43a9e6736cd7232c6
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/giftbox
+      #6463.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3c073e3edbfb3145a236d095f5a7b16
+    m_Address: Assets/Assetsbundle/3DTriple Match/Shader/cgwell Alpha Blend.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 392bc28c60822ff43a5bbe0cc666136a
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/ZDEMesh/Mesh/ZDEMESH/Plane_01.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f01605b9d773c0340baba8eea3e1586a
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/slot/Texture/baiban.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2fb08b6ce0f8b3498c6f77d424faa53
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Texture/Material/Glow
+      6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e55a89736a58ad41873cf186b0f2317
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/Glow
+      5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: abb0f13ddd5b230489be8a174b358147
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/start
+      4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2bb5e9f1e4433147a7bf37c93c534bd
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/Glow
+      3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17d977b1a43fb2c44950e0a84b3127b8
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/2_Flare8_1_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32e230c51a32a714ca843c9fb3043e87
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/1_GlowYellowz_2_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 011fdb8c06fe9d54586c1a52afb76b68
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/1_GlowYellowz_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d151d5bc74ad7a846b469f59d3cd28a5
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/d2_particle_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c91bbb8f7058085419eebc710a7324b8
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/start
+      1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2271d48b982bcbb4baaee8e18c1ad656
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/FangSheGuang_03.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fab588b816176af48bbfa4012a324f4b
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/slot/Material/Glow_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: debe3147769d41346bcd29961b17c7cf
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/01
+      2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b65d67075dcc1e448a4fbfcac153d9d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/Smoke_1~2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aaa16e4b55ee44f4ab702000c549031d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/starlight_0002.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db05bea2e236b7e488ea8c3a9ca5b068
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Texture/Material/SmokeAdd.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fac68f6a746f40c449ee595b929e0fe2
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/start
+      2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bbf8bddec97b4ba49b82338c33776ef7
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/d2_particle_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b9f19674557722489f990023421a72f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/Fx_Coin/Fx_Coin.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76ad76b917a09c74d9a06308c067c438
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Prefabs/Lobby/Fly_Coin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 696cf46543b1bd94cba77344faa92cec
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/Fx_Coin/play.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11d43805d968e184b8134ff7092dc565
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Prefabs/hit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 237749fa24f90354da8908bc44807b59
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Texture/Material/coin.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc1da4476e890ac40bf1d4ec6d3b01a7
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/coinfly.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2178715710194b4ead5d83a2ca3c02d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Tips/Tips(Dialog).controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d22ab40d4c4db641a6b99cc45c30da5
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Tips/in.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4c87a594f9b9f34d9ceee42470337fc
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Tips/out.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccd097b2e68440b42b968ca03d4df41b
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/UI/news/Lobby/gy_img_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7bd294db310c6c4d8c4ef9246d389c6
+    m_Address: "Assets/Assetsbundle/3DTriple Match/Res/Animation/PlayDialog/Button
+      (\u95EA\u7535).controller"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34b39cd010107914c9c2cfd96e638fbf
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/PlayDialog/buff.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8b512116c9430b40b6ba75f4c8fa37f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/PlayDialog/lock.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b038c2e385f30c140926df6430790ba6
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/PlayDialog/null.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c1f83166a092074ab2ed7a2a3fa3a43
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/PlayDialog/nm.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b3cdc1c9b408054cbae5b0a9b5c1d1e
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/PlayDialog/click.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: beab24a1227bda54cb0ccd2bf85ebd84
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Lose/Lose.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c87e795169f044e499b03af963eff96a
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Lose/in.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3d08d87c650ef147a1401a06f30da5b
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Lose/out.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb6b7b8a1c1d8f44d8e4f0ecc308a804
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Lose/play1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a47df8d41d86d64fa657cf7aa5fa9d5
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Lose/play2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 926f30225416ee74aa8a08b8847dfc81
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/SuperWheel_add
+      3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16f68db3b45149547aa9555ba2e1c6af
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/xulietu_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba7db87d9ce08304b9028fb337cecdcf
+    m_Address: Assets/Common/UI/Icon_ImageIcon_Ad_00_s.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59cb02a1bacd6194798deb4dc1b9f010
+    m_Address: 0-01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 979890148a9207c44b003cfc8eb3143f
+    m_Address: gy_img_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bdb95d7d3f5b7d47bb4505a3a567e6f
+    m_Address: gy_img_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b164ead77a050e448b6f07effab0b7cd
+    m_Address: gy_img_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b768fb792b46bed49afc3d45c7daba1f
+    m_Address: myFound
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d0eace08ce308943b5bcdf97adbd288
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Animation/Button.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a1c81e48cf61b748bacdf795146f7fb
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Animation/Colloct.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51e91b002f330db4eb75cd638eda4d5d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Animation/Down.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4213de1e2deea104e8391216ea959ef8
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/01_Dialog/Animation/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c12192546fe672b47964a58f1f3cbe5c
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/Lobby/Star/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93e913a06a8a2f349a58269dbc452c34
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/Lobby/Star/play.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7bdf7533bc0b2a4c94e9cb10844f00a
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Animation/Lobby/Star/Start.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1eee74a2eaf15bc43a813719cfcf9f0a
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/01
+      1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1151ea24cd0cba4cb9297546f135720
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b95591f98dfc4246a0c17d7ca3ba407
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/Glow_Lin.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9bdabd2460a5b943b41e56e56f40838
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Material/start
+      5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 246d4a2ea0f9afd46b0eaf717794839f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/1_xmbotttg_5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 132edec5546b280499d847a1c9a1882c
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/1Dr_shandian28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 703d440b0373ae747acac0dc73823e8c
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/bingdoong.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fbcce810b247ef479e2eb7f68cae1b5
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/circle00_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2265243e3478bd4aad22e9a1e7a62a2
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/d2_particle_5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f93f47184ae0f644ca78f6772fb1903c
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/FX_texture_tuowei1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e03ce2a2837810749887a6f9f53b3b7b
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/lizi_00016.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac086c41da4bc82448690eca0890c70e
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/lxh_xuehua.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0ffe6df6cd6c344894a57c870fea117
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/P_LightPoint_01
+      1.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba8f653b6256c2f459dc498893f7423c
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/shine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6516c0eeb55c3d44f8e4eb9670b8f73d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/Star_01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6440cf7be23db174fab733969f92dd58
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/sz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d333e215c61f9c6439e97b5138585b61
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/3dMatch/Texture/yanhuo_00261.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71f67d50eb1f4fb429b2cee240d98ac0
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Prefabs/Fx_Coin_common.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d67d42c8a7f7944fb5cf97b9e8e1ada
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Texture/FX_texture_tuowei1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72ae933a43ca0aa4ca6b82b04fb2e174
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Effect/Texture/Material/Glow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcfc16a309bcf79449ccd175cd91efd9
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Prefabs/List_Item/List_GameOut.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 296760ed6dbe8ce459a8a9775c331b76
+    m_Address: Assets/Assetsbundle/3DTriple Match/Res/Prefabs/Lobby/Fly_Icon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcbc4ac1dc7e99148953b7ead2f7bcf8
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/bird.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28547f879887a2f49a9a2cee79f96a9c
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/CupCake
+      #6773.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4f8e1d29acc5a347bbdac374ecc517d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/dog #6740.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c612346aa6adbb43ae3064b1ca6e496
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/flipFlops.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 39aa08ecf52b2a040b3093bc516f97c4
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/flower.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8cc6e765c8ef1dd41b4ce8f329d2851a
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/FBX/HoneyJar.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3605f24f8bec5d34f9ad1fd11b9d8021
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/KDOPMesh/48312.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0030a678bca2d2242bc1a50352550810
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/KDOPMesh/48884.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86c94793ec6fd444fabcad4b9946e8aa
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/KDOPMesh/48960.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a54a071c4ad63e1489cc74e8e1df9248
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/KDOPMesh/49206.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9eb7655fbd1d4546a5322b2a7dedc64
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/KDOPMesh/49210.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36a0b3c8ec180a0419cd242e98fbf427
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/KDOPMesh/49518.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b604e6477c63b994683e0b0a1c7a2709
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Materials/balloon2
+      #5255.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2d7f563a2992ca428ed23f486022c50
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Materials/birdTexture.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccef6341741d49844b0df8dfd6f70cb6
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Materials/Cupcake_Albedo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95b32879d55570c47b56edfc3b23cdd1
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Materials/dogTexture.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcc12e3ec7066884a94029dad572fc12
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Materials/flipflopsTexture.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6460bfd0a943da24296dcb9bd0bb2588
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Materials/flowerTexture.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f495b6df0bc631b42ac74d784b5a6f6b
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Texture/Modle/balloon2
+      #5255.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1cdd385cd49568248b2859d56819016f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Texture/Modle/birdTexture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 779f0d3634e21c443ad9e7edd8e41064
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Texture/Modle/Cupcake_Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55ed2f5fb66f2f54bbc05bdf66aa4f8e
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Texture/Modle/dogTexture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30381d1360a3de3418aa8aebfa81d53f
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Texture/Modle/flipflopsTexture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30b38d3e47a710741891c33e8b2c099d
+    m_Address: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Texture/Modle/flowerTexture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0ee8ee16052c0b4fb4dde98cb42c5ca
+    m_Address: Assets/Assetsbundle/3DTriple Match/Shader/beas.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78cfcf368968e06439ac9b82189616df
+    m_Address: Assets/Assetsbundle/3DTriple Match/Shader/beas_alpha.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04cfc7f267dc9764eadabd2785cf1c56
+    m_Address: Assets/Assetsbundle/3DTriple Match/Shader/DanCaiZhi.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ce7a915426932846b71db39f254f70d
+    m_Address: Assets/Common/Effect/Texture/fx_rotate_line.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1f9ec0a62e794347a3c78b16db0ae1f
+    m_Address: Assets/Common/UI/Button_Square02_Gray_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d97775a1a2db51a48b7c511f35dbc0fb
+    m_Address: Assets/Common/UI/Icon_PictoIcon_Close.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf9fdbf591b4b4ad5a8974e3c3952f1e
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/AmeshoA.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebe434a4d291e42f48eefcf989029165
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/body.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a0f82c13c92449219d4b6835c1e6094
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/face.00.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b64003f84f3a46a69e685eae440d4d0
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/hige.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53a96f4f162f94943967a67b9d5bc99b
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/Materials/body.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4387a6a8e7ead4ed9af769e98c9ab417
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/Materials/face.00.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17435014863c84d5090c43a0979c4f5c
+    m_Address: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/Materials/hige.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 729969423d049d0439f155df39c7e412, type: 2}
+    - {fileID: 11400000, guid: a34709d03760fb3478988c65b341b51f, type: 2}

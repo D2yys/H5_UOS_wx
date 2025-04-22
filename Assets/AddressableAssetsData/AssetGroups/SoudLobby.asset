@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SoudLobby
+  m_EditorClassIdentifier: 
+  m_GroupName: SoudLobby
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6cee37755e795304ba563fd3fc1ea2a7
+  m_SerializeEntries:
+  - m_GUID: 95825023a778fe74ca4c158fa0c70f2f
+    m_Address: 0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0e5532a62f357a4da519652e1ada1b2
+    m_Address: wangguan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61ef035d33a4cf2458b04ed0dc4a05aa
+    m_Address: button_Click1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 411a7a1d211f9874a9d8e0fb6a40849d
+    m_Address: 01_Button
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6dc2518d85899c8438a4e8c84f014e81
+    m_Address: coinStart
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d503e9b2f679c9c4787d18dea8c547ae
+    m_Address: button_close
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 461e27d8dc8d57642a86c5b571b3e40e
+    m_Address: button_open
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1f20ba956fb0004fbddb7b15adbbaab
+    m_Address: StartFly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 423ead7258bbf294193ba62ce71ee0ec
+    m_Address: StartHit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fbf9d8172c8a7d479ebf60b6750afe8
+    m_Address: xxAdd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+  - m_GUID: fb5036586c2c32d4899c037bf3527f4c
+    m_Address: MissinShider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+  - m_GUID: e19c31aaa6a839a4997ba7eb1cc49c57
+    m_Address: LollipopUse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: acdb337e0b1a0eb45a323d93f4ecf09f, type: 2}
+    - {fileID: 11400000, guid: 02c51ef1c33dbdb498b81e8df9f02556, type: 2}

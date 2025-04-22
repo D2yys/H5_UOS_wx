@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DialogTrty
+  m_EditorClassIdentifier: 
+  m_GroupName: DialogTrty
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 755b569e099d32843bc94b5e8d53bbac
+  m_SerializeEntries:
+  - m_GUID: 2b058dd7478f40840b849f876463cff8
+    m_Address: Tyro_14ClockDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cfbbff4443913fe4ba08d82a6e03a05f
+    m_Address: Tyro_11GetMovel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5aecdf7d8b5afe48b7ee82492c9e208
+    m_Address: Tyro_7magnetDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fc701ae268c3aa34685811ded3bf0a55
+    m_Address: Tyro_8undoDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f18f9fbbb44e7cc47ab37a4ce2ce629b
+    m_Address: Tyro_9shuffleDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e02151e9ff211d448709700b1af022e
+    m_Address: Tyro_10freezeTimeDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b94e9248c7c17ad47bca963a0cf6d0df, type: 2}
+    - {fileID: 11400000, guid: 606be83988ad6d94187a3e6b32e0deeb, type: 2}

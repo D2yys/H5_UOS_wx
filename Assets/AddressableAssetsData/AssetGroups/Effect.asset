@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Effect
+  m_EditorClassIdentifier: 
+  m_GroupName: Effect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: aa9ad5fbc8113094c8c6fdd8cf3aaf57
+  m_SerializeEntries:
+  - m_GUID: 8df13e00d9e3e0843aa688e4580abf2b
+    m_Address: Fly_Start
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e175561c7bf76ca4eb53bd3f3b18b2f2
+    m_Address: FX_hit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83806c9ae6be17a49b94ea2c149ee755
+    m_Address: Fx_Creat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab4c7d937157d554ca336e534246a11c
+    m_Address: Eff_PickTime
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c68a172b59562747860557288936de2
+    m_Address: TimeAdd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c554448ba8c3264fa851bfea8e4b539
+    m_Address: PickEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9232cf8b40851a24d9941f1bf5c3c621
+    m_Address: EffectTimeIce
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fde2c8d19a861214c86ad0c1520aef89
+    m_Address: Animation_Icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2695621a307cbfa47a51acf6f0f4d4c3
+    m_Address: Fx_Coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ebb1ad6cf0cd0c49b24dc928dedf4cd
+    m_Address: Fly_Model
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6930eed9d88eb5a4ea9b7ab9dfd1d87a, type: 2}
+    - {fileID: 11400000, guid: c2bb1c2deb00f64428512217fd4203a8, type: 2}

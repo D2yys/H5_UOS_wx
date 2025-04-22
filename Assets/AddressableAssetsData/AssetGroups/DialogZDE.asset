@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DialogZDE
+  m_EditorClassIdentifier: 
+  m_GroupName: DialogZDE
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b064f22afc17ed64293bfba4ad611228
+  m_SerializeEntries:
+  - m_GUID: 02c66d47ad08c574287b6591d594eb81
+    m_Address: ZDEWin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 481925ee102058443bb10d3c29e498aa
+    m_Address: ZDETimeUPDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 902c412aafb6517498d6a0fc48fa2878
+    m_Address: ZDEStop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f8132905476c6624b86eee121993d6b8
+    m_Address: ZDEPropGet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 27b9f8cfe52e1834d8753f205aaffd20
+    m_Address: ZDELost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b168ba0ab22c444ba13ddb8a15c32d5
+    m_Address: ZDEJinDu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa4e6467822949d4b9da7006d6a412e6
+    m_Address: ZDEFuHuo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8dda0150662fa05448636c7eba1d5b03
+    m_Address: BoxCoinDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55a83eadfa8330e4aab5d946fea400d9
+    m_Address: BoxZDEWinDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: aa518d215964e8a49aa939c42edcd688, type: 2}
+    - {fileID: 11400000, guid: 1bd3d8e1b3f63294f8eb9d7f34d5d51e, type: 2}

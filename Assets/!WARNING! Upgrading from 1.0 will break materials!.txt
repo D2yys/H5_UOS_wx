@@ -1,0 +1,1 @@
+Things have changed about the way that materials are authored since version 1.0. Noise maps and height maps are now separate, rather than being included in the alpha channel of the fur texture. As a result of this, the opacity of the fur is now fully controlled by the alpha channel of the fur texture, rather than the skin texture's alpha channel adding an extra layer of opacity.

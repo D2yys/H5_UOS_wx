@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameCommon
+  m_EditorClassIdentifier: 
+  m_GroupName: GameCommon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a90525f4b0993a448a2592f5757f374f
+  m_SerializeEntries:
+  - m_GUID: 8daf9da34962bc741ac77dba4d89d331
+    m_Address: 0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a42b76fd9aa2a704ebd26a6d6cd59bca
+    m_Address: octopusTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c129d3671bba62948a18e26c44fd5ab7
+    m_Address: Triple7_laba_huoche
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 331781dfee22b3448b3d16e5992e4d51
+    m_Address: apple
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9edbdc1ca3b116c469d683e7a73c1eb3
+    m_Address: 02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55ad80b988379984cbe255c217e2c9b0
+    m_Address: Sandwich_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 409807f63caeed842812949c5bce2d7c
+    m_Address: FriedEgg_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e55731b6cacf87c4da6a0dba0432be9f
+    m_Address: Bread_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa35e5a122d5fa84cbee127fa600cf5e
+    m_Address: FrenchBread_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ac5a1f21cedfd544adec84aafb6822a
+    m_Address: ChickenLeg_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40df2baccc13ddf4aaf9d0548b086e17
+    m_Address: Cheese_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae1123471f3fe6c4db13034842bae89a
+    m_Address: 01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1068ce9ae832754abdc9ba070c630e0
+    m_Address: Globe_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f8f34402f800124898dd02c8f2ce787
+    m_Address: HoneyJar_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7317ee5aafd2afb49b8ea0c53370244d
+    m_Address: 06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f5af2b27e9004a48b66aaa216a73d8a
+    m_Address: 04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f61c0126eb9e47e49878a1d975f59e6c
+    m_Address: Croissant_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 175096b67f5934345b96cd7cf11cb2e8
+    m_Address: Donut_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a80fc986675cd314aa5d429b1dadf7fc
+    m_Address: Macaron_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7f80a9c26cd99345bc3ee1aeda16704
+    m_Address: Muffin_Albedo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fdfb78aeb765aa64fb5894dd0dfe09db
+    m_Address: Triple5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b5409a2a8b65ee4a93db098c3e730b5
+    m_Address: giftbox4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b24701180a964f409a5efe06512dce6
+    m_Address: giftbox2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b82f0b1b747e7ee47855860bdf0a7e57
+    m_Address: giftbox1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b23c72967c28a2d4e877bfb2519b23dc
+    m_Address: apple3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 02d6ac5604179704486d11066ff62229
+    m_Address: airplane4 #5248
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a70f4bb6e113703479523a97bcd7736e
+    m_Address: Diamond2_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de321377888a8274b8f70979e201f465
+    m_Address: Diamond3_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: eb549cc4f1d704c45bf4c29c92a696ce, type: 2}
+    - {fileID: 11400000, guid: 69f511ac92c2bcb43a9fe487312dc4fe, type: 2}

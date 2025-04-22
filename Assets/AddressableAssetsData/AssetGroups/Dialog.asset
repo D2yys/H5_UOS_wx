@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  m_GroupName: Dialog
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e4c74a65cdad81e44941d0f1c948e250
+  m_SerializeEntries:
+  - m_GUID: 5a6548e60faef8b46b44332b00a46b7e
+    m_Address: Get_Tip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84639f8bf3067ce4bad2f0026973b2b7
+    m_Address: DailyGiftDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d09f7625024c5374180aabd590a55baa
+    m_Address: GameOutDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 920fb8afe3366bd4ebdc4febd2237c3e
+    m_Address: GameStopDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb64ef28830bc4950ba4b1ab832e9cba
+    m_Address: GetPropDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3650d2039d0ac1641979e496738230bf
+    m_Address: hd1_Get
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 390b5417b8e0907488016a2e8de22c68
+    m_Address: Icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c35b48fcbaf6c4eff83d6dfb69fd3f49
+    m_Address: LevelTryAgainDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 984ba201c4cf41b46b28e03ac21c1d99
+    m_Address: LostDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b404ed5cde11064f9123c2a783bc5a4
+    m_Address: PlayLevelDialog_tip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: deadbc9ccaf8c5b47adb92ce8240bc98
+    m_Address: ProfileDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df525577d7aa84c9aa2401c83331e7d5
+    m_Address: SettingDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e5b88a7a5cf1d242b3326b8868652bb
+    m_Address: TimeUPDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e04fdf31eed8bd4883eb07ac1e19df9
+    m_Address: Tmission_ScrollDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97b35f3bc36e8044b91034b3e6fda608
+    m_Address: TmissionClose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43f4d7f8997ed8b43a473aafa1441b49
+    m_Address: BoxOpenDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b88d2df5b571c3e448baa6b5b613078a
+    m_Address: TiLiAddDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bdff6123023f63740b85092377cb796d
+    m_Address: XingXingDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5d7a0258e4eb984693663ae6706e205
+    m_Address: InGameTip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a4d517c83b0f884ca437e31e7990049
+    m_Address: AddDesktopDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd477416868374d4cae832821def5236
+    m_Address: ShareDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1eb6aa5de9c9b04bbc02dcbd4fcfdb2
+    m_Address: SpinWellDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c78aa6a9e0fb9c4193d14229de346f3
+    m_Address: FrindTopDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efafdb5a42f502e4eb2042e8504b9b14
+    m_Address: Cat_GetTip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 241e0197c11d9bf48886468fd1ca335d
+    m_Address: YouXiQuanDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b37145722ef670248afeb483bf646df9
+    m_Address: LoadKey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d128dc6fabd422547a289f23a362d069
+    m_Address: CeBianLanDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17abd020b54f3394283457272b258305, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c25ecc51be6c45240a502a448f0ed850, type: 2}
+    - {fileID: 11400000, guid: e896196d27e951d4899b70e18747f8c2, type: 2}
