@@ -1,0 +1,186 @@
+{
+    "Config": {
+        "General": {
+            "TermsAndConditionsURL": null,
+            "PrivacyPolicyURL": null,
+            "PlayStoreURL": null,
+            "AppStoreURL": null
+        },
+        "Game": {
+            "NotEnoughCoinsVideoReward": 100,
+            "BoardItemsMultiplier": [
+                {
+                    "SkillGroup": 1,
+                    "Value": 0.82
+                },
+                {
+                    "SkillGroup": 2,
+                    "Value": 0.91
+                },
+                {
+                    "SkillGroup": 3,
+                    "Value": 1
+                },
+                {
+                    "SkillGroup": 4,
+                    "Value": 1.15
+                },
+                {
+                    "SkillGroup": 5,
+                    "Value": 1.33
+                }
+            ],
+            "DefaultSkillGroup": 3,
+            "ItemScale": 1.1,
+            "EaseThresholdOffset": 0,
+            "EaseThresholdMinimumLevel": 0,
+            "SuperEaseMinimumAttempts": 20,
+            "SuperEaseMultiplier": 0.77,
+            "ExitToMainScreenLevel": 2,
+            "RememberPreGameBoostsSelection": true,
+            "StoreVideoCoins": 100,
+            "LowSpaceIndicator": 1,
+            "LowTimeWarning": 30,
+            "FinalLoopStartLevel": 1001,
+            "LevelCompletRewards": [
+                {
+                    "ID": "levelComplet1",
+                    "TimeThreshold": 0,
+                    "Source": "LevelComplete",
+                    "Reward": [
+                        {
+                            "Type": "coins",
+                            "Count": 20
+                        },
+                        {
+                            "Type": "hummer",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "ID": "levelComplet2",
+                    "TimeThreshold": 30,
+                    "Source": "LevelComplete",
+                    "Reward": [
+                        {
+                            "Type": "coins",
+                            "Count": 30
+                        },
+                        {
+                            "Type": "hummer",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "ID": "levelComplet3",
+                    "TimeThreshold": 60,
+                    "Source": "LevelComplete",
+                    "Reward": [
+                        {
+                            "Type": "coins",
+                            "Count": 40
+                        },
+                        {
+                            "Type": "hummer",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "SkillGroupTracking": [
+            {
+                "StartLevel": 2,
+                "EndLevel": 13,
+                "Group5": 0,
+                "Group4": 0.15,
+                "Group3": 0.22,
+                "Group2": 0.3,
+                "Group1": 0.4
+            },
+            {
+                "StartLevel": 2010,
+                "EndLevel": 2010,
+                "Group5": 0,
+                "Group4": 0.55,
+                "Group3": 0.7,
+                "Group2": 0.85,
+                "Group1": 1.08
+            }
+        ],
+        "Crown": {
+            "Enabled": true,
+            "UnlockLevel": 25,
+            "Prize": [
+                {
+                    "ID": "Crown1",
+                    "Source": "Crown",
+                    "Reward": [
+                        {
+                            "Type": "lightningBolt",
+                            "Count": 1
+                        },
+                        {
+                            "Type": "clock",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "ID": "Crown2",
+                    "Source": "Crown",
+                    "Reward": [
+                        {
+                            "Type": "lightningBolt",
+                            "Count": 2
+                        },
+                        {
+                            "Type": "clock",
+                            "Count": 2
+                        }
+                    ]
+                },
+                {
+                    "ID": "Crown3",
+                    "Source": "Crown",
+                    "Reward": [
+                        {
+                            "Type": "lightningBolt",
+                            "Count": 3
+                        },
+                        {
+                            "Type": "clock",
+                            "Count": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        "Revive": {
+            "Price": [
+                1000,
+                1500,
+                2000
+            ],
+            "LightningRewardAmount": [
+                0,
+                3,
+                6
+            ],
+            "CoinsTimeAdded": [
+                60,
+                60,
+                60
+            ],
+            "RewardedVideoEnabled": false,
+            "RewardedVideoTimeAdded": 15,
+            "RewardedVideoMaxPerDay": 9999,
+            "RewardedVideoMaxPerLevel": 9999,
+            "RewardedVideoMinimumLevel": 999999,
+            "RewardedVideoGoalsRemainingThreshold": 100,
+            "RewardedVideoGoalsRemainingTimeAdded": 45
+        }
+    }
+}

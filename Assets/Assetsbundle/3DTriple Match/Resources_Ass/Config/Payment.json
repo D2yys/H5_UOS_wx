@@ -1,0 +1,710 @@
+{
+    "Payment": {
+        "Items": {
+            "hummer": {},
+            "star": {},
+            "removeAds": {},
+            "lives": {
+                "InitCount": 5,
+                "RechargeCap": 5,
+                "rechargeDuration": 30,
+                "Price": 1000
+            },
+            "lifeVouchers": {
+                "InitCount": 1
+            },
+            "coins": {
+                "InitCount": 1000
+            },
+            "magnet": {
+                "Type": "Boost",
+                "InitCount": 3,
+                "UnlockLevel": 3,
+                "Price": 2900,
+                "PackAmount": 3
+            },
+            "undo": {
+                "Type": "Boost",
+                "InitCount": 3,
+                "UnlockLevel": 5,
+                "Price": 1200,
+                "PackAmount": 3
+            },
+            "shuffle": {
+                "Type": "Boost",
+                "InitCount": 3,
+                "UnlockLevel": 7,
+                "CooldownTime": 2.5,
+                "Price": 1900,
+                "PackAmount": 3
+            },
+            "freezeTime": {
+                "Type": "Boost",
+                "InitCount": 3,
+                "UnlockLevel": 9,
+                "Duration": 10,
+                "Price": 2400,
+                "PackAmount": 3
+            },
+            "superLightning": {
+                "Type": "PreGameBoost",
+                "InitCount": 3,
+                "UnlockLevel": 10,
+                "Price": 1900,
+                "PackAmount": 3,
+                "ItemsToRemove": 9
+            },
+            "extraTime": {
+                "Type": "PreGameBoost",
+                "InitCount": 3,
+                "UnlockLevel": 14,
+                "Price": 2900,
+                "PackAmount": 3,
+                "TimeAdded": 30
+            },
+            "lightningBolt": {
+                "Type": "Elements",
+                "UnlockLevel": 23,
+                "ItemsToRemove": 3
+            },
+            "clock": {
+                "Type": "Elements",
+                "UnlockLevel": 24,
+                "TimeAdded": 10
+            },
+            "unlimitedLives": {
+                "Type": "Buff"
+            },
+            "doubleWeekly": {
+                "Type": "Buff"
+            },
+            "unlimitedExtraTime": {
+                "Type": "Buff"
+            },
+            "unlimitedSuperLightning": {
+                "Type": "Buff"
+            },
+            "classicCardPack": {
+                "Type": "CardPack"
+            },
+            "advancedCardPack": {
+                "Type": "CardPack"
+            },
+            "eliteCardPack": {
+                "Type": "CardPack"
+            }
+        },
+        "PricePoints": {
+            "P_0.49": {
+                "Price": 0.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_0.49",
+                    "iOS": "com.triple.match.3d.offline_0.49"
+                }
+            },
+            "P_0.99": {
+                "Price": 0.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_0.99",
+                    "iOS": "com.triple.match.3d.offline_0.99"
+                }
+            },
+            "P_1.49": {
+                "Price": 1.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_1.49",
+                    "iOS": "com.triple.match.3d.offline_1.49"
+                }
+            },
+            "P_1.99": {
+                "Price": 1.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_1.99",
+                    "iOS": "com.triple.match.3d.offline_1.99"
+                }
+            },
+            "P_2.49": {
+                "Price": 2.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_2.49",
+                    "iOS": "com.triple.match.3d.offline_2.49"
+                }
+            },
+            "P_2.99": {
+                "Price": 2.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_2.99",
+                    "iOS": "com.triple.match.3d.offline_2.99"
+                }
+            },
+            "P_3.49": {
+                "Price": 3.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_3.49",
+                    "iOS": "com.triple.match.3d.offline_3.49"
+                }
+            },
+            "P_3.99": {
+                "Price": 3.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_3.99",
+                    "iOS": "com.triple.match.3d.offline_3.99"
+                }
+            },
+            "P_4.49": {
+                "Price": 4.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_4.49",
+                    "iOS": "com.triple.match.3d.offline_4.49"
+                }
+            },
+            "P_4.99": {
+                "Price": 4.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_4.99",
+                    "iOS": "com.triple.match.3d.offline_4.99"
+                }
+            },
+            "P_5.49": {
+                "Price": 5.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_5.49",
+                    "iOS": "com.triple.match.3d.offline_5.49"
+                }
+            },
+            "P_5.99": {
+                "Price": 5.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_5.99",
+                    "iOS": "com.triple.match.3d.offline_5.99"
+                }
+            },
+            "P_6.49": {
+                "Price": 6.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_6.49",
+                    "iOS": "com.triple.match.3d.offline_6.49"
+                }
+            },
+            "P_6.99": {
+                "Price": 6.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_6.99",
+                    "iOS": "com.triple.match.3d.offline_6.99"
+                }
+            },
+            "P_7.49": {
+                "Price": 7.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_7.49",
+                    "iOS": "com.triple.match.3d.offline_7.49"
+                }
+            },
+            "P_7.99": {
+                "Price": 7.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_7.99",
+                    "iOS": "com.triple.match.3d.offline_7.99"
+                }
+            },
+            "P_8.49": {
+                "Price": 8.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_8.49",
+                    "iOS": "com.triple.match.3d.offline_8.49"
+                }
+            },
+            "P_8.99": {
+                "Price": 8.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_8.99",
+                    "iOS": "com.triple.match.3d.offline_8.99"
+                }
+            },
+            "P_9.49": {
+                "Price": 9.49,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_9.49",
+                    "iOS": "com.triple.match.3d.offline_9.49"
+                }
+            },
+            "P_9.99": {
+                "Price": 9.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_9.99",
+                    "iOS": "com.triple.match.3d.offline_9.99"
+                }
+            },
+            "P_10.99": {
+                "Price": 10.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_10.99",
+                    "iOS": "com.triple.match.3d.offline_10.99"
+                }
+            },
+            "P_11.99": {
+                "Price": 11.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_11.99",
+                    "iOS": "com.triple.match.3d.offline_11.99"
+                }
+            },
+            "P_12.99": {
+                "Price": 12.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_12.99",
+                    "iOS": "com.triple.match.3d.offline_12.99"
+                }
+            },
+            "P_13.99": {
+                "Price": 13.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_13.99",
+                    "iOS": "com.triple.match.3d.offline_13.99"
+                }
+            },
+            "P_14.99": {
+                "Price": 14.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_14.99",
+                    "iOS": "com.triple.match.3d.offline_14.99"
+                }
+            },
+            "P_16.99": {
+                "Price": 16.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_16.99",
+                    "iOS": "com.triple.match.3d.offline_16.99"
+                }
+            },
+            "P_19.99": {
+                "Price": 19.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_19.99",
+                    "iOS": "com.triple.match.3d.offline_19.99"
+                }
+            },
+            "P_24.99": {
+                "Price": 24.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_24.99",
+                    "iOS": "com.triple.match.3d.offline_24.99"
+                }
+            },
+            "P_29.99": {
+                "Price": 29.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_29.99",
+                    "iOS": "com.triple.match.3d.offline_29.99"
+                }
+            },
+            "P_34.99": {
+                "Price": 34.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_34.99",
+                    "iOS": "com.triple.match.3d.offline_34.99"
+                }
+            },
+            "P_39.99": {
+                "Price": 39.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_39.99",
+                    "iOS": "com.triple.match.3d.offline_39.99"
+                }
+            },
+            "P_44.99": {
+                "Price": 44.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_44.99",
+                    "iOS": "com.triple.match.3d.offline_44.99"
+                }
+            },
+            "P_49.99": {
+                "Price": 49.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_49.99",
+                    "iOS": "com.triple.match.3d.offline_49.99"
+                }
+            },
+            "P_54.99": {
+                "Price": 54.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_54.99",
+                    "iOS": "com.triple.match.3d.offline_54.99"
+                }
+            },
+            "P_59.99": {
+                "Price": 59.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_59.99",
+                    "iOS": "com.triple.match.3d.offline_59.99"
+                }
+            },
+            "P_64.99": {
+                "Price": 64.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_64.99",
+                    "iOS": "com.triple.match.3d.offline_64.99"
+                }
+            },
+            "P_69.99": {
+                "Price": 69.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_69.99",
+                    "iOS": "com.triple.match.3d.offline_69.99"
+                }
+            },
+            "P_74.99": {
+                "Price": 74.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_74.99",
+                    "iOS": "com.triple.match.3d.offline_74.99"
+                }
+            },
+            "P_79.99": {
+                "Price": 79.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_79.99",
+                    "iOS": "com.triple.match.3d.offline_79.99"
+                }
+            },
+            "P_84.99": {
+                "Price": 84.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_84.99",
+                    "iOS": "com.triple.match.3d.offline_84.99"
+                }
+            },
+            "P_89.99": {
+                "Price": 89.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_89.99",
+                    "iOS": "com.triple.match.3d.offline_89.99"
+                }
+            },
+            "P_94.99": {
+                "Price": 94.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_94.99",
+                    "iOS": "com.triple.match.3d.offline_94.99"
+                }
+            },
+            "P_99.99": {
+                "Price": 99.99,
+                "OrderIdentifier": {
+                    "Android": "com.triple.match.3d.offline_99.99",
+                    "iOS": "com.triple.match.3d.offline_99.99"
+                }
+            }
+        },
+        "Skus": {
+            "RemoveAds_5.99": {
+                "IsConsumable": false,
+                "Reward": [
+                    {
+                        "Type": "removeAds",
+                        "Count": 1
+                    }
+                ]
+            },
+            "DoublePack_5.99": {
+                "IsConsumable": false,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 2000
+                    },
+                    {
+                        "Type": "removeAds",
+                        "Count": 1
+                    }
+                ]
+            },
+            "CoinPack_1.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 1000
+                    }
+                ]
+            },
+            "CoinPack_8.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 5000
+                    }
+                ]
+            },
+            "CoinPack_14.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 10000
+                    }
+                ]
+            },
+            "CoinPack_29.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 25000
+                    }
+                ]
+            },
+            "CoinPack_54.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 50000
+                    }
+                ]
+            },
+            "CoinPack_99.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 100000
+                    }
+                ]
+            },
+            "BeginnerBundle_4.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 5000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "undo",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "magnet",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "freezeTime",
+                        "Count": 1
+                    }
+                ]
+            },
+            "ShopBundle_6.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 2000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 3
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 3
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 3
+                    }
+                ]
+            },
+            "ShopBundle_9.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 5000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "undo",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "magnet",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 1
+                    },
+                    {
+                        "Type": "freezeTime",
+                        "Count": 1
+                    }
+                ]
+            },
+            "ShopBundle_19.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 10000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 2
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 2
+                    },
+                    {
+                        "Type": "undo",
+                        "Count": 2
+                    },
+                    {
+                        "Type": "magnet",
+                        "Count": 2
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 2
+                    },
+                    {
+                        "Type": "freezeTime",
+                        "Count": 2
+                    }
+                ]
+            },
+            "ShopBundle_39.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 25000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 6
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 6
+                    },
+                    {
+                        "Type": "undo",
+                        "Count": 6
+                    },
+                    {
+                        "Type": "magnet",
+                        "Count": 6
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 6
+                    },
+                    {
+                        "Type": "freezeTime",
+                        "Count": 6
+                    },
+                    {
+                        "Type": "unlimitedLives",
+                        "Count": 360
+                    }
+                ]
+            },
+            "ShopBundle_79.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 50000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 12
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 12
+                    },
+                    {
+                        "Type": "undo",
+                        "Count": 12
+                    },
+                    {
+                        "Type": "magnet",
+                        "Count": 12
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 12
+                    },
+                    {
+                        "Type": "freezeTime",
+                        "Count": 12
+                    },
+                    {
+                        "Type": "unlimitedLives",
+                        "Count": 720
+                    }
+                ]
+            },
+            "ShopBundle_99.99": {
+                "IsConsumable": true,
+                "Reward": [
+                    {
+                        "Type": "coins",
+                        "Count": 65000
+                    },
+                    {
+                        "Type": "superLightning",
+                        "Count": 24
+                    },
+                    {
+                        "Type": "extraTime",
+                        "Count": 24
+                    },
+                    {
+                        "Type": "undo",
+                        "Count": 24
+                    },
+                    {
+                        "Type": "magnet",
+                        "Count": 24
+                    },
+                    {
+                        "Type": "shuffle",
+                        "Count": 24
+                    },
+                    {
+                        "Type": "freezeTime",
+                        "Count": 24
+                    },
+                    {
+                        "Type": "unlimitedLives",
+                        "Count": 1440
+                    }
+                ]
+            }
+        }
+    }
+}
