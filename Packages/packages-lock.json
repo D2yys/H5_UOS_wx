@@ -7,7 +7,16 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "e61cd5f6ff4de8b1ac894c4a00710ee61103484b"
+      "hash": "7fd04e1250bf8b4ac02d48d6b8ae54c3c501be51"
+    },
+    "cn.unity.uos.func.stateless": {
+      "version": "https://e.coding.net/unitychina/uos/FuncStatelessSDK.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "608bc230a8b6764e8e7daa7d8689898763066cc8"
     },
     "cn.unity.uos.launcher": {
       "version": "https://e.coding.net/unitychina/uos/UOSLauncher.git",
@@ -16,7 +25,7 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "da3e30b50670ce6da1a816a236a28bb678e424a8"
+      "hash": "6c99c4a61903046a8761ca5945a9ccbc0ebe2bc6"
     },
     "cn.unity.uos.passport.core": {
       "version": "https://e.coding.net/unitychina/uos/PassportCore.git",
@@ -44,13 +53,6 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
       "hash": "3ef7a8e4205e0c4cf6884b82dee46877484a30a9"
-    },
-    "cn.unity.uos.wind": {
-      "version": "https://e.coding.net/unitychina/uos/WindSDK.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "fb9560599e550e1f513ede1ca2be4fde4b80a43f"
     },
     "com.unity.2d.animation": {
       "version": "7.0.7",

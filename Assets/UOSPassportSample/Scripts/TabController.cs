@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Unity.Passport.Sample.Scripts
 {
     public class TabController : MonoBehaviour
     {
         public GameObject tabFocus;
-        public Text text;
+        public TextMeshProUGUI text;
         private readonly Color _inactiveColor = new Color(0.29f, 0.6745f, 0.9686f, 1);
         private readonly Color _activeColor = new Color(1, 1, 1, 1);
         

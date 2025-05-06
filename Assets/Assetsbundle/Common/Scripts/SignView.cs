@@ -188,7 +188,7 @@ public class SignView : MonoBehaviour
     //获得服务器时间
     public void getServerTime()
     {
-        string url = "https://baidu.com";
+        string url = "https://www.baidu.com";
         StartCoroutine(IServerTime(url));
     }
 

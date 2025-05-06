@@ -191,9 +191,9 @@ namespace Unity.Passport.Sample.Scripts
             
 #if UNITY_WEIXINMINIGAME
             // external login
-            string userId = "2"; // 需要登录的外部系统的用户Id
-            string personaId = "3"; // 可选, 需要登录的 外部系统的角色ID
-            string personaDisplayName = "id是不是2"; // 可选, 需要登录的角色的昵称。
+            string userId = "12345"; // 需要登录的外部系统的用户Id
+            string personaId = "45678"; // 可选, 需要登录的 外部系统的角色ID
+            string personaDisplayName = "external"; // 可选, 需要登录的角色的昵称。
             await AuthTokenManager.ExternalLogin(userId, personaId, personaDisplayName);
             _callback(PassportEvent.Completed);
 #else

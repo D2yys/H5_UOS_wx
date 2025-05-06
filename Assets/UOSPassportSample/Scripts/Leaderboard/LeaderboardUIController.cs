@@ -2,21 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Passport;
 using TMPro;
 using UnityEngine;
 using Unity.Passport.Runtime;
 using Unity.Passport.Runtime.UI;
 using Unity.Passport.Sample.Scripts.Utils;
 using UnityEngine.Events;
-using Random = UnityEngine.Random;
 using HutongGames.PlayMaker;
-using UnityEngine.UI;
+
 
 namespace Unity.Passport.Sample.Scripts.Leaderboard
 {
     public class LeaderboardUIController : MonoBehaviour
     {
+
         public static LeaderboardUIController Instance;
         public GameObject rankItemPrefab;
         public GameObject rankTabPrefab;
@@ -24,11 +23,16 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
 
         public Transform tabs;
         public Transform panels;
-        public UnityEvent onConfigGenned = new();
-
-        public Text hintText;
+        public UnityEvent onConfigGenned = new();      
+        public TextMeshProUGUI hintText;
         // 排行榜配置列表
         private readonly List<Config> _rankConfigList = new();
+
+        public Texture Hade;
+        List<RankItem.Config> list = new();
+
+
+
 
         [System.Serializable]
         private class Config
@@ -43,6 +47,8 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             public string scheduleText; // 重置周期设置
             public TabController tabController;
             public string BucketStrategy; // 榜单的小榜策略
+
+            public string url;
         }
 
         void Awake()
@@ -55,16 +61,26 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             {
                 Destroy(this);
             }
+           
+            Init();
         }
-        
-        
-        
+
+        private void Start()
+        {
+            Init();
+        }
+
+     
+
         public async Task Init(bool updateScore = true)
         {
+
+            await PassportFeatureSDK.Initialize();
+
             await GenConfigList();
-            var numLives = FsmVariables.GlobalVariables.GetFsmInt("Data_level");
-            
-            int score = numLives.Value;
+            //int score = Random.Range(1, 20) * 5;
+            var level =  FsmVariables.GlobalVariables.GetFsmInt("Data_level");   //排行榜分数
+            int score = level.Value;
 
             foreach (var rankConfig in _rankConfigList)
             {
@@ -72,11 +88,13 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
                 {
                     // 更新玩家分数
                     await UpdateScoreOnLoggedIn(rankConfig, score);
+
+
                 }
                 UpdateLeaderboardByConfig(rankConfig);
             }
         }
-        
+
         private void UpdateLeaderboardByConfig(Config leaderboard)
         {
             // 获取排行榜成绩
@@ -88,12 +106,12 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             {
                 GetLeaderboard(leaderboard);
             }
-            
+
             // 设置更新频率文案
             if (leaderboard.cronText != null)
             {
                 var schedule = leaderboard.scheduleText;
-                leaderboard.cronText.text = schedule != "" ?  $"榜单{Cron.Translate(schedule)}重置" : "榜单无重置计划";
+                leaderboard.cronText.text = schedule != "" ? $"榜单{Cron.Translate(schedule)}重置" : "榜单无重置计划";
             }
         }
 
@@ -102,17 +120,30 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
         /// </summary>
         private async Task UpdateScoreOnLoggedIn(Config leaderboard, int score = 0)
         {
+
+
+            Debug.Log("排行榜数据更新");
+            Dictionary<string, string> _Url = new Dictionary<string, string>();
+
+            var url = FsmVariables.GlobalVariables.GetFsmString("HeadUrl");
+            var name = FsmVariables.GlobalVariables.GetFsmString("Data_name");
+
+            _Url.Add("Url", url.Value);
+
             try
             {
                 if (leaderboard.BucketStrategy == "Customized")
                 {
-                    await PassportFeatureSDK.Leaderboard.UpdateScoreWithBucketId(leaderboard.leaderboardSlugName, score, "bucket1");
+
+                    await PassportFeatureSDK.Leaderboard.UpdateScoreWithBucketId(leaderboard.leaderboardSlugName, score, "bucket1", _Url);
                 }
                 else
                 {
-                    await PassportFeatureSDK.Leaderboard.UpdateScore(leaderboard.leaderboardSlugName, score);
+
+                    await PassportFeatureSDK.Leaderboard.UpdateScore(leaderboard.leaderboardSlugName, score, _Url);
+
                 }
-               // UIMessage.Show($"经验值+{score}");
+             //   UIMessage.Show($"经验值+{score}");
             }
             catch (PassportException e)
             {
@@ -124,20 +155,27 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
         {
             Transform listContent = leaderboard.listContent;
             string leaderboardSlugName = leaderboard.leaderboardSlugName;
-            List<RankItem.Config> list = new();
+            //List<RankItem.Config> list = new();
             try
             {
                 DestroyChildren(listContent);
                 var resp = await PassportFeatureSDK.Leaderboard.ListLeaderboardScores(leaderboardSlugName);
                 foreach (var score in resp.Scores)
                 {
+                    // var a = score.Properties;
+                    string PGet;
+                    score.Properties.TryGetValue("Url", out PGet);
+
+
                     list.Add(new RankItem.Config()
                     {
                         Alias = score.DisplayName,
                         Rank = score.Rank,
                         Score = score.Score,
                         Tier = score.Tier,
+                        Url = PGet,
                     });
+
                 }
                 SetupLeaderboardList(listContent, list.GetRange(0, Math.Min(leaderboard.size, list.Count)));
                 // 设置自身分数
@@ -177,7 +215,7 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
                 obj.GetComponent<RankItem>().Init(rank);
             }
         }
-        
+
         #region Methods For Self Rank
 
         /// <summary>
@@ -189,9 +227,19 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             var item = leaderboard.rankSelf.GetComponent<RankItem>();
             // 先清空
             item.Clear();
+
+
             try
             {
                 var resp = await PassportFeatureSDK.Leaderboard.GetScore(leaderboard.leaderboardSlugName, 0);
+                var ttt = resp.Scores[0];
+                var smg = ttt.Properties;
+
+                string ProUrl;
+                smg.TryGetValue("Url", out ProUrl);  //获得自己的Url
+
+                Debug.Log("获取自己到详细中URL" + ProUrl);
+
                 if (resp.Scores.Any())
                 {
                     var score = resp.Scores[0];
@@ -201,8 +249,10 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
                         Rank = score.Rank,
                         Score = score.Score,
                         Tier = score.Tier,
+                        Url = ProUrl
+
                     };
-                    
+
                     item.Init(config);
                 }
             }
@@ -214,7 +264,7 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
 
         }
         #endregion
-        
+
         #region Methods For Leaderboard Bucket
         private async void GetLeaderboardBucket(Config leaderboard)
         {
@@ -225,6 +275,12 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             {
                 DestroyChildren(listContent);
                 var resp = await PassportFeatureSDK.Leaderboard.GetBucket(leaderboardSlugName);
+                var ttt = resp.Scores[0];
+                var smg = ttt.Properties;
+
+                string ProUrl;
+                smg.TryGetValue("Url", out ProUrl);
+
                 ulong rank = 0;
                 ulong count = 0;
                 double lastScore = -1;
@@ -247,10 +303,12 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
                         Rank = rank,
                         Score = score.Score,
                         Tier = score.Tier,
+                        Url = ProUrl,
+
                     };
                     lastScore = score.Score;
                     list.Add(rankItem);
-                    
+
                     // 设置自身分数
                     if (score.MemberId == DemoUIController.Instance.Persona.PersonaID)
                     {
@@ -277,7 +335,7 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             DestroyChildren(tabs);
             DestroyChildren(panels);
             _rankConfigList.Clear();
-            
+
             // 获取排行榜列表
             try
             {
@@ -350,5 +408,7 @@ namespace Unity.Passport.Sample.Scripts.Leaderboard
             await Init(false);
             gameObject.SetActive(true);
         }
+
     }
+
 }

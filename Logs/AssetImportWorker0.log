@@ -1,0 +1,261 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.11f1c2 (2c7757f00bfe) revision 2914135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Myunity\2021.3.11f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Project/H5_wx
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51354
+Successfully changed project path to: D:/Project/H5_wx
+D:/Project/H5_wx
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 697.02 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1c2 (2c7757f00bfe)
+[Subsystems] Discovering subsystems at path D:/Myunity/2021.3.11f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project/H5_wx/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/Myunity/2021.3.11f1c2/Editor/Data/Managed'
+Mono path[1] = 'D:/Myunity/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Myunity/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Myunity/2021.3.11f1c2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Myunity/2021.3.11f1c2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Myunity/2021.3.11f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007655 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 431.64 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (432ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.267716 seconds.
+Android Extension - Scanning For ADB Devices 6176 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\Project\H5_wx\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\H5_wx\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 510.61 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  4.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4621ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (4180ms)
+			LoadAssemblies (341ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (3181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (511ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (2326ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Toon/Basic Outline': fallback shader 'Toon/Basic' not found
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Basic Outline': fallback shader 'Toon/Basic' not found
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 6.26 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 220 unused Assets / (1.2 MB). Loaded Objects now: 8926.
+Memory consumption went from 329.3 MB to 328.2 MB.
+Total: 9.759200 ms (FindLiveObjects: 0.662500 ms CreateObjectMapping: 0.476600 ms MarkObjects: 7.770700 ms  DeleteObjects: 0.847300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3854.791571 seconds.
+  path: Assets/Common/Sound/close.mp3
+  artifactKey: Guid(39171aa1b96d7704e99d86b35a77eda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Sound/close.mp3 using Guid(39171aa1b96d7704e99d86b35a77eda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd03d29ad3d0514b7caf44efa4f093e') in 0.388078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18543.055563 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(c0b0a28ef0bffcb46b3af27511f7f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(c0b0a28ef0bffcb46b3af27511f7f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7963e0f424f64ec46f51ac481f46aba6') in 0.153638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10313.810826 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/CanvasLoad.prefab
+  artifactKey: Guid(5f15aa97dbe163a4d91de0fdf3fa0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/CanvasLoad.prefab using Guid(5f15aa97dbe163a4d91de0fdf3fa0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d7dcb400c80e737e43012f627508e8') in 0.501491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.741099 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/Game.unity
+  artifactKey: Guid(af7604468b99daf4994807e34527981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/Game.unity using Guid(af7604468b99daf4994807e34527981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe74c6fd3acbb18cb80f9236b7dc2cc') in 0.003717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2860.533448 seconds.
+  path: Assets/Common/UI/UI/GUI Pro-SuperCasual/Scene/DemoScene.unity
+  artifactKey: Guid(9adc6fbb0a5134611948bbff3052c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/UI/UI/GUI Pro-SuperCasual/Scene/DemoScene.unity using Guid(9adc6fbb0a5134611948bbff3052c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85023ce0703c9132c07f65c850b61fcf') in 0.007117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3687.145771 seconds.
+  path: Assets/Common/Prefabs/Dialog/LeaderboardPanel.prefab
+  artifactKey: Guid(b9a400a3177a22145ae322cfaede2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Prefabs/Dialog/LeaderboardPanel.prefab using Guid(b9a400a3177a22145ae322cfaede2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ab0df66d8c3c592b1430aacf6403b6') in 0.370136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.375112 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/A_Prefabs/A_Prefabs.spriteatlas
+  artifactKey: Guid(0c676b614dc12db46a99eace710ec386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/A_Prefabs/A_Prefabs.spriteatlas using Guid(0c676b614dc12db46a99eace710ec386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b7ec15908351875b0d4425be11c471') in 0.012799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.116903 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/A_Prefabs/Prefab/Fx_Clear.prefab
+  artifactKey: Guid(034bfd88dfb2a0644a26e12d29543b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/A_Prefabs/Prefab/Fx_Clear.prefab using Guid(034bfd88dfb2a0644a26e12d29543b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cd423de372d77c5cba3b26aaedbd9a') in 0.097010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.467825 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/Res/Prefabs/ModelIcon.prefab
+  artifactKey: Guid(9640bec82bbc1b74093113cc37d0b192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/Res/Prefabs/ModelIcon.prefab using Guid(9640bec82bbc1b74093113cc37d0b192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773b2f5b314b28f9733029feb55658d5') in 0.010155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.564154 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Dialog/ZDEPropGet.prefab
+  artifactKey: Guid(f8132905476c6624b86eee121993d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/Resources_Ass/Triple/Dialog/ZDEPropGet.prefab using Guid(f8132905476c6624b86eee121993d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079f75b173f7c0fc1f92f97fcf910978') in 0.027344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18299.897553 seconds.
+  path: Assets/Assetsbundle/3DTriple Match/Loding.unity
+  artifactKey: Guid(01919608e1d561b4c81425e2db069702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/3DTriple Match/Loding.unity using Guid(01919608e1d561b4c81425e2db069702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33e89510d7c7d1f076662e0c8f58d90') in 0.026301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 455.995073 seconds.
+  path: Assets/MeowCats_Amesyo/Cats/Model/ameshoA/AmeshoA.fbx
+  artifactKey: Guid(cf9fdbf591b4b4ad5a8974e3c3952f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeowCats_Amesyo/Cats/Model/ameshoA/AmeshoA.fbx using Guid(cf9fdbf591b4b4ad5a8974e3c3952f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478c993834d94383122a9776d3ba059b') in 1.398625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.688875 seconds.
+  path: Assets/Assetsbundle/Common/Sound/Mesh/Effect/ShopGet.wav
+  artifactKey: Guid(d219e0960d2282845ad373942aaf02c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assetsbundle/Common/Sound/Mesh/Effect/ShopGet.wav using Guid(d219e0960d2282845ad373942aaf02c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ad4f98386842fbfc474cf28d84292d') in 0.054790 seconds 

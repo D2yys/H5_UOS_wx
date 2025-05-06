@@ -150,7 +150,7 @@ namespace HutongGames.PlayMaker.Actions
                     }
 
                     Fsm.Event(End);
-                    Debug.Log("有数据数据赋值到脚本");
+                    Debug.Log("服务器有数据");
 
                 }
                 else //没有数据
@@ -159,7 +159,7 @@ namespace HutongGames.PlayMaker.Actions
                     // 对指定命名空间和角色下的单存档进行存档操作。若之前无单存档，会创建一个新的单存档。成功后返回存档Id
 
                     UpdateOptions data = new UpdateOptions();
-                    data.Name = "玩家数据";                   
+                    data.Name = "data";                   
                     string _tag = uniqueTag.Value;
 
                     if (string.IsNullOrEmpty(_tag))

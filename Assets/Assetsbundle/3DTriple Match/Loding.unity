@@ -15848,7 +15848,7 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: "\u72B6\u6001\u673A"
-    startState: "\u72B6\u6001 2"
+    startState: "\u672C\u5730\u52A0\u8F7D"
     states:
     - name: "\u672C\u5730\u52A0\u8F7D"
       description: "\u573A\u666F\u65E0\u6CD5\u5B9E\u65F6\u66F4\u65B0"
@@ -17775,6 +17775,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7044209241710397771, guid: 8970ac815688a294cbadd4df533a68e8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 402892b7af6da504fa2a42ca77d2ea7c, type: 3}
     - target: {fileID: 7543912736238060085, guid: 8970ac815688a294cbadd4df533a68e8, type: 3}
       propertyPath: m_SizeDelta.y
       value: 41.465

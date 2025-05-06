@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2799002D-FFAE-5E3B-8D86-BBFAC74D46E7}</ProjectGuid>
+    <ProjectGuid>{60F6E1BE-4EF0-05BD-B897-A2C5A38F9509}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>WxEditor</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;DOTWEEN_TMP;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;PLAYMAKER_1_9_1;CROSS_PLATFORM_INPUT;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;PLAYMAKER_1_9_0;UNITY_UOS_SECURITY;UNITY_WEIXINMINIGAME;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;DOTWEEN_TMP;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;PLAYMAKER_1_9_1;CROSS_PLATFORM_INPUT;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;PLAYMAKER_1_9_0;UNITY_WEIXINMINIGAME;DY;UNITY_UOS_SECURITY;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\WX-WASM-SDK-V2\Editor\WXAssetPostprocessor.cs" />
     <Compile Include="Assets\WX-WASM-SDK-V2\Editor\PicCompressor.cs" />
     <Compile Include="Assets\WX-WASM-SDK-V2\Editor\WXEditorSettingHelper.cs" />
     <Compile Include="Assets\WX-WASM-SDK-V2\Editor\WXExtDef.cs" />
@@ -75,7 +76,6 @@
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Half.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Pdb.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\Brotli\win_x86_64\vcruntime140_1.dll" />
-    <None Include="Assets\WX-WASM-SDK-V2\Editor\wx-editor.xml" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\Brotli\win_x86_64\msvcp140.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\Brotli\LICENSE.txt" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.dll" />
@@ -86,6 +86,7 @@
     <None Include="Assets\WX-WASM-SDK-V2\Editor\Brotli\commits.txt" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Memory.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\WxWasmSDKEditor.asmdef" />
+    <None Include="Assets\WX-WASM-SDK-V2\Editor\LuaHooker\win\newstatehooker.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\AssetsTools.NET.dll" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Mdb.dll" />
@@ -95,6 +96,7 @@
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Buffers.xml" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Runtime.CompilerServices.Unsafe.xml" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Text.Encoding.CodePages.xml" />
+    <None Include="Assets\WX-WASM-SDK-V2\Editor\wx-editor.xml" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\SixLabors.ImageSharp.xml" />
     <None Include="Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\AssetsTools.NET.Texture.dll" />
   </ItemGroup>
@@ -376,7 +378,7 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="JWT">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\JWT.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\JWT.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -397,13 +399,13 @@
       <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.TypeExtensions">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\System.Reflection.TypeExtensions.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\System.Reflection.TypeExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -412,7 +414,7 @@
       <HintPath>Assets\PlayMaker\Editor\ConditionalExpressionEditor.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Grpc.Core.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
@@ -430,13 +432,16 @@
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core.Api">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Grpc.Core.Api.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Grpc.Core.Api.dll</HintPath>
     </Reference>
     <Reference Include="PlayMakerEditor">
       <HintPath>Assets\PlayMaker\Editor\PlayMakerEditor.dll</HintPath>
     </Reference>
+    <Reference Include="wx-perf">
+      <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-perf.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.Options">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Microsoft.Extensions.Options.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Microsoft.Extensions.Options.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
@@ -445,7 +450,7 @@
       <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>Library\PackageCache\cn.unity.uos.launcher@d25027588e\Plugins\Google.Protobuf.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.launcher@6c99c4a619\Plugins\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
@@ -454,16 +459,16 @@
       <HintPath>Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Library\PackageCache\cn.unity.uos.launcher@d25027588e\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.launcher@6c99c4a619\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Json">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\System.Text.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="Google.Api.CommonProtos">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Google.Api.CommonProtos.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Google.Api.CommonProtos.dll</HintPath>
     </Reference>
     <Reference Include="ConditionalExpression">
       <HintPath>Assets\PlayMaker\ConditionalExpression.dll</HintPath>
@@ -472,7 +477,7 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Primitives">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Microsoft.Extensions.Primitives.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
@@ -483,6 +488,9 @@
     <Reference Include="DemiLib">
       <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
     <Reference Include="wx-runtime-editor">
       <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
     </Reference>
@@ -492,23 +500,11 @@
     <Reference Include="DOTweenProEditor">
       <HintPath>Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Encodings.Web">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\System.Text.Encodings.Web.dll</HintPath>
-    </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@ff24bfc335\Plugins\General\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="bgdt">
-      <HintPath>Assets\Plugins\ByteGame\com.bytedance.bgdt\Editor\bgdt.dll</HintPath>
-    </Reference>
-    <Reference Include="ttsdk_tools">
-      <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\Editor\Tool\ttsdk_tools.dll</HintPath>
-    </Reference>
-    <Reference Include="ttsdk">
-      <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <HintPath>Library\PackageCache\cn.unity.uos.passport.login@3ef7a8e420\Plugins\General\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -909,7 +905,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Wx.csproj">
-      <Project>{E157FB50-41C0-2546-B209-AFBF819EDC48}</Project>
+      <Project>{8808B795-3547-1E81-90D4-04ED57D45FA8}</Project>
       <Name>Wx</Name>
     </ProjectReference>
   </ItemGroup>
